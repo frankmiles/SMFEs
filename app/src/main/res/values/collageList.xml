@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="collagePrompt">Select Collage</string>
+    <string-array name="selectCollage">
+        <item>Select Collage</item>
+        <item>GITA</item>
+        <item>KIIT</item>
+        <item>SELICON</item>
+        <item>GEC</item>
+    </string-array>
+</resources>

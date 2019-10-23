@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sem">
+        <item>Current Semester</item>
+        <item>1 Semester</item>
+        <item>2 Semester</item>
+        <item>3 Semester</item>
+        <item>4 Semester</item>
+        <item>5 Semester</item>
+        <item>6 Semester</item>
+        <item>7 Semester</item>
+        <item>8 Semester</item>
+    </string-array>
+</resources>
