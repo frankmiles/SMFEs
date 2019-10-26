@@ -2,6 +2,7 @@ package com.freeoda.franktirkey.smfes;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Context;
 import android.content.Intent;
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         version = String.valueOf(BuildConfig.VERSION_NAME);
         verDetail.setText("Version: "+version+" ");
 
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
+                R.color.colorMainActivity));
 
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
