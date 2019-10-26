@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button reg;
+    Button reg,login;
     TextView verDetail;
 
     String version;
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         reg = findViewById(R.id.reg);
+        login = findViewById(R.id.login);
         verDetail = findViewById(R.id.verDetail);
 
         version = String.valueOf(BuildConfig.VERSION_NAME);
@@ -38,6 +39,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,Registration.class);
                 startActivity(i);
+            }
+        });
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,HomeActivity.class);
+                startActivity(i);
+                finish();
             }
         });
 
