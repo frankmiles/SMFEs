@@ -33,6 +33,13 @@ public class HomeActivity extends AppCompatActivity {
         tabChat = findViewById(R.id.tabChat);
         viewPager = findViewById(R.id.viewPager);
 
+        toolbar.setBackgroundColor(ContextCompat.getColor(HomeActivity.this,
+                R.color.colorAccent));
+        tabLayout.setBackgroundColor(ContextCompat.getColor(HomeActivity.this,
+                R.color.colorAccent));
+        getWindow().setStatusBarColor(ContextCompat.getColor(HomeActivity.this,
+                R.color.colorAccentDark));
+
         PageAdapter pageAdapter = new PageAdapter(getSupportFragmentManager(),
                 tabLayout.getTabCount());
         viewPager.setAdapter(pageAdapter);

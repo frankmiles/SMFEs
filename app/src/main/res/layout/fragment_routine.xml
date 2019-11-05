@@ -6,10 +6,22 @@
     android:orientation="vertical"
     tools:context=".RoutineFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="result_will_be_displaied_here"
+        android:textColor="@color/colorAccent"
+        android:textStyle="normal|bold" />
+
+    <ListView
+        android:id="@+id/lvSyllabus"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Routine" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
 
 </LinearLayout>
