@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
         animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.sample_animation);
         verDetail.startAnimation(animation);
 
-
         //AppTitle Animation
 
 //            appTitle.animate()
